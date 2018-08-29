@@ -1,0 +1,92 @@
+/*==============================================================
+	STYLE SWITCHER | ONLY FOR DEMO NOT INCLUDED IN MAIN FILES
+===============================================================*/
+
+.agency-style-switch {
+	opacity: 0.95;
+	position: fixed;
+	z-index: 9999;
+	top: 100px;
+	background: white;
+	overflow: visible;
+}
+
+.config-title {
+	text-transform: uppercase;
+	color: black;
+	font-weight: 700;
+	padding: 1px 0;
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+	margin-bottom: 5px;
+}
+
+.agency-style-switch .switched-options {
+	position: relative;
+	width: 180px;
+	text-align: left;
+	padding: 20px;
+	-webkit-box-shadow: 0px 0px 5px 0px grey;
+	box-shadow: 0px 0px 5px 0px grey;
+}
+
+.agency-style-switch .switch-button {
+	opacity: 1 !important;
+	background: white;
+	padding: 10px 14px;
+	font-size: 29px;
+	cursor: pointer;
+	color: grey;
+	overflow: hidden;
+	position: absolute;
+	right: -59px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	-webkit-box-shadow: 0px 0px 5px 0px grey;
+	box-shadow: 0px 0px 5px 0px grey;
+	transition: 0.3s;
+}
+
+.agency-style-switch .styles {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+.agency-style-switch ul.styles {
+	list-style: none;
+	padding-left: 0;
+}
+
+.agency-style-switch ul.styles li{
+	display: inline-block;
+}
+
+.agency-style-switch ul.styles li div{
+	width: 35px;
+	height: 35px;
+}
+
+.agency-style-switch ul.styles li div.default {
+	background: #3c8fff;
+}
+
+.agency-style-switch ul.styles li div.orange {
+	background: #f4a62a;
+}
+
+.agency-style-switch ul.styles li div.wisteria {
+	background: #8E44AD;
+}
+
+.agency-style-switch ul.styles li div.belize-hole {
+	background: #2980b9;
+}
+
+.agency-style-switch ul.styles li div.green-sea {
+	background: #16A085;
+}
+
+.agency-style-switch ul.styles li div.pomegranate {
+	background: #d14233;
+}

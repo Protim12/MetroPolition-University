@@ -1,0 +1,426 @@
+$color: #f4a62a;
+
+/*=======================================================
+
+	// PRE-LOADER
+
+=========================================================*/
+
+.preloader {
+	background-color: $color;
+}
+
+/*============================= End Preloader =============================*/
+
+/*=======================================================
+
+	// NAVIGATION
+
+=========================================================*/
+
+.main-navbar-top.navbar-home .navbar-nav li a {
+	color: $color;
+
+	&:hover {
+		color: $color;
+	}
+}
+
+.main-navbar-top.navbar-home .navbar-nav li.active:after {
+	background: $color;
+}
+
+/*=======================================================
+
+	// FOR 0 TO 767;
+
+=========================================================*/
+
+@media screen and (max-width: 767px) {
+
+	.navbar-toggle {
+		border: 1px solid #fff;
+
+		.icon-bar {
+			background-color: #fff;
+		}
+	}
+
+	.navbar-collapse {
+		background-color: #fff;
+		border-top: 1px solid $color;
+	}
+
+	.nav > li > a {
+		color: $color;
+	}
+
+	.nav>li>a:hover, .nav>li>a:focus {
+		color: $color;
+	}
+
+	.navbar-nav li.active:after {
+		width: 100%;
+		background: $color;
+	}
+
+	.main-navbar-top.navbar-home {
+
+		.navbar-toggle {
+			border: 1px solid $color;
+
+			.icon-bar {
+				background-color: $color;
+			}
+		}
+	}
+}
+
+/*============================= End Navigation =============================*/
+
+/*=======================================================
+
+	// HEADER SECTION
+
+=========================================================*/
+
+.header-bg {
+	background-color: $color;
+}
+
+.header {
+
+	.part-inner-left {
+		
+		.btn {
+
+			&:hover, &:active, &:focus {
+				color: #fff;
+				background-color: transparent;
+				border-color: #fff;
+			}
+		}
+
+		.btn-default.active, .btn-default.focus {
+			color: #fff;
+			background-color: transparent;
+			border-color: #fff;
+		}
+	}
+}
+
+/*============================= End Header Section =============================*/
+
+/*=======================================================
+
+	// SECOND SECTION
+
+=========================================================*/
+
+.second-left {
+
+	.btn-default:hover {
+		color: #fff;
+		background-color: $color;
+		border-color: transparent;
+	}
+
+	.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover {
+		color: #fff;
+		background-color: $color;
+		border-color: transparent;
+	}
+
+	.btn-default.focus, .btn-default:focus {
+		color: #fff;
+		background-color: $color;
+		border-color: transparent;
+	}
+
+}
+
+/*============================= End Second Section =============================*/
+
+/*=======================================================
+
+	// THIRD SECTION
+
+=========================================================*/
+
+.love-details-right {
+
+	.media {
+
+		.media-object {
+			color : $color;
+		}
+	}
+}
+
+/*============================= End Third Section =============================*/
+
+/*=======================================================
+
+	// FOURTH SECTION
+
+=========================================================*/
+
+.owl-carousel {
+
+	.owl-controls {
+
+		.owl-nav {
+
+			.owl-prev {
+
+				&:hover {
+					background-color: $color;
+				}
+			}
+		}
+	}
+}
+
+.owl-carousel {
+
+	.owl-controls {
+
+		.owl-nav {
+
+			.owl-next {
+
+				&:hover {
+					background-color: $color;
+				}
+			}
+		}
+	}
+}
+
+.owl-theme {
+
+	.owl-dots {
+
+		.owl-dot {
+
+			span {
+				border-color: $color;
+			}
+		}
+	}
+}
+
+.owl-theme {
+
+	.owl-dots {
+
+		.owl-dot.active {
+
+			span {
+				background: $color;
+			}
+		}
+
+		.owl-dot {
+
+			&:hover {
+
+				span {
+					background: $color;
+				}
+			}
+		}
+	}
+}
+
+/*============================= End Fourth Section =============================*/
+
+/*=======================================================
+
+	// FIFTH SECTION
+
+=========================================================*/
+
+.faq-group {
+
+	.faq-trigger {
+		color: #000;
+	}
+
+	.each-faq {
+		background-color: #fff;
+	}
+
+	.each-faq.open {
+
+		.faq-trigger {
+			color: #fff;
+			background-color: $color;
+		}
+	}
+}
+
+/*============================= End Fifth Section =============================*/
+
+/*=======================================================
+
+	// SIXTH SECTION
+
+=========================================================*/
+
+.client_scale {
+	border: 1px solid $color;
+	border-radius: 50%;
+}
+
+.client-bg {
+
+	.selection-dot {
+
+		img {
+			border: 1px solid transparent;
+		}
+	}
+
+	.selection-dot.active {
+
+		img {
+			border: 1px solid $color;
+		}
+	}
+}
+
+/*============================= End Sixth Section =============================*/
+
+/*=======================================================
+
+	// SEVENTH SECTION
+
+=========================================================*/
+
+.sponsor {
+	background: $color;
+}
+
+/*============================= End Seventh Section =============================*/
+
+/*=======================================================
+
+	// Eighth SECTION
+
+=========================================================*/
+
+.contact {
+	margin-top: 102px;
+}
+
+.contact-bg {
+	box-shadow: 0px 0px 40px 0px rgba(244, 166, 42, 0.2);
+
+	.contact-form {
+
+		.form-group {
+
+			&:after, &:before {
+				background-color: rgba(195, 195, 199, 1);
+			}
+
+			&:after {
+				background-color: $color;
+			}
+		}
+
+		.form-label {			
+			color: rgba(56, 56, 56, 1);
+		}
+
+		.is-focused {
+
+			.form-label {
+				color: $color;
+			}
+		}
+
+		.btn {
+			border: none;
+			background-color: $color;
+		}
+	}
+}
+
+/*============================= End Eighth Section =============================*/
+
+/*=======================================================
+
+	// Ninth SECTION
+
+=========================================================*/
+
+.footer {
+	background-color: $color;
+
+	.footer-one {
+
+		h3 {
+			color: #fff;
+		}
+
+		p {
+			color: #fff;
+		}
+
+	}
+
+	.footer-two {
+		
+		h3 {
+			color: #fff;
+		}
+
+		ul {
+
+			li {
+
+				p {
+					color: #fff;
+				}
+			}
+		}
+
+	}
+
+	.footer-three {
+
+		h3 {
+			color: #fff;
+		}
+
+		ul {
+
+			li {
+
+				i {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	.footer-down {
+		border-top: 1px solid #2280ff;
+	}
+}
+
+/*============================= End Ninth Section =============================*/
+
+/*=======================================================
+
+	// Style Switcher
+
+=========================================================*/
+
+.agency-style-switch .switch-button:hover {
+	color: $color;
+}
+
+/*============================= End Style Switcher =============================*/
