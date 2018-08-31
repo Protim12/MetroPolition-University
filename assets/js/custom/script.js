@@ -66,10 +66,15 @@ var tpj=jQuery;               // MAKE JQUERY PLUGIN CONFLICTFREE
 		);
 		wow.init();
        
+        /*=====================
+			PARALLAX JS
+		======================*/
+		$(window).stellar();
+        
+        $("a[rel^='prettyPhoto']").prettyPhoto();
 
 
-
-		/*====BLOG CAROUSEL====*/
+		/*====SPONSOR CAROUSEL====*/
 
 		$('.sponsor-slider').owlCarousel({
 			items: 6,
