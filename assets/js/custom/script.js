@@ -66,12 +66,9 @@ var tpj=jQuery;               // MAKE JQUERY PLUGIN CONFLICTFREE
 		);
 		wow.init();
        
-        /*=====================
-			PARALLAX JS
-		======================*/
-		$(window).stellar();
         
-        $("a[rel^='prettyPhoto']").prettyPhoto();
+        
+        
 
 
 		/*====SPONSOR CAROUSEL====*/
@@ -103,6 +100,33 @@ var tpj=jQuery;               // MAKE JQUERY PLUGIN CONFLICTFREE
 			}
 		});
 	});
+    
+    $('.list.one').addClass('list_scale').show().siblings().hide();
+		$('.selection-dot').on("click",function(){
+
+			var self=$(this);
+			self.addClass('active').siblings().removeClass('active');
+			var model =self.attr('data-dot');
+			
+			$(".list[data-list="+model+"]").addClass('list_scale').show().siblings().hide();
+		});
+		$('.list1').addClass('active').children().addClass('child'); //active 2 no. client.
+    
+    $('.panel-heading').on("click", function(){
+        if ( $(this).hasClass('panel-active') ) {
+            $(this).removeClass('panel-active');
+        } else {
+            $('.panel-active').removeClass('panel-active');
+            $(this).addClass('panel-active');    
+        }
+    });
+    
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+    
+    /*=====================
+			PARALLAX JS
+		======================*/
+		$(window).stellar();
 
 	$(window).load(function(){
 
