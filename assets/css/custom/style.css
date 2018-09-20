@@ -1910,3 +1910,10 @@ nav .navbar-nav .open a:hover {
   color: #fff;
   font-size: 20px;
 }
+
+.faci-item {
+  margin-bottom: 50px;
+}
+.faci-item p {
+  margin-bottom: 15px;
+}
